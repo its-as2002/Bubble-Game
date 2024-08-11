@@ -1,4 +1,4 @@
-let sec = 10;
+let sec = 59;
 let hit = 0;
 let score = 0;
 let gameActive = true; // This will track if the game is still active
