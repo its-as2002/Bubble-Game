@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #d0e6f9; /* Pale blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: #ffffff; /* White */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(91, 155, 213, 0.4); /* Professional blue shadow */
+}
+
+.ptop {
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    background-color: #9ab4e3; /* Medium light blue */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    height: 30px;
+    width: auto;
+    background-color: #ffffff; /* White */
+    border-radius: 5px;
+    margin-left: 10px;
+    align-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    color: #003d66; /* Deep blue */
+    padding: 10px 10px;
+}
+
+.pbtm {
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background-color: #b3cde0; /* Light blue */
+    color: #ffffff; /* White text */
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    box-shadow: 0px 4px 8px rgba(0, 51, 102, 0.4); /* Dark blue shadow */
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: #005a9c; /* Strong blue */
+}
+
+#intro {
+    position: absolute;
+    top: 20px;
+    height: 30px;
+    width: 220px;
+    padding-left: 20px;
+    background-color: #7ba3d6; /* Medium blue */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 51, 102, 0.4); /* Dark blue shadow */
+}
